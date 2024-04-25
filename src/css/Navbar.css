@@ -1,0 +1,64 @@
+.button-container {
+    margin-right: 9rem;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: auto;
+    max-width: 18%;
+    background-color: rgb(27, 133, 219);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(27, 133, 219, 0.5) 5px 10px 15px;
+    margin-bottom: 2rem;
+}
+
+.button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.icon {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .button-container {
+        margin-right: 5.7rem;
+    }
+
+}
+
+/* Daha küçük ekranlarda düğme boyutlarını daha da küçült */
+@media screen and (max-width: 480px) {
+    .button {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .button-container {
+        margin-right: 500px;
+    }
+}

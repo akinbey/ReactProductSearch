@@ -1,0 +1,18 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* Kartları dikey olarak sırala */
+    justify-content: center;
+    /* Kartları dikey eksende ortala */
+    align-items: center;
+    /* Kartları yatay eksende ortala */
+    max-width: 100%;
+    /* Kartın maksimum genişliği 100% olsun */
+    margin: auto;
+    /* Kartı dikey ve yatay olarak ortala */
+    padding: 20px;
+    /* Kart içeriğine biraz boşluk ekle */
+    box-sizing: border-box;
+    /* padding değerini kutunun genişliğine ekleyin */
+}
